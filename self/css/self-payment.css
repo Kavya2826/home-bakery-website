@@ -1,0 +1,24 @@
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+h1 { color: #e74c3c; margin-bottom: 10px; }
+p { color: #555; }
+#video { width: 100%; border: 4px solid #e74c3c; border-radius: 12px; }
+button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover { background: #c0392b; }
+#status { font-weight: bold; color: #27ae60; margin: 20px 0; }
